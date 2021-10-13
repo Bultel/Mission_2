@@ -1,10 +1,228 @@
-div{
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-family: helvetica;
 }
-ul {
-    display: flex;
-    list-style: none;
+@font-face {
+    font-family: brandin;
+    font-family: helvetica;
+    src: url(./Fonts/Brandin/Brandon_bld_0.otf);
+    src: url(./Fonts/Helvetica/HelveticaNeueLTPro-Bd.otf);
 }
-li{
-    padding: 2em;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw; 
+}
+.first_img{
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+.text_first_img {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+
+}
+.text_first_img h1{
+    font-size: 1rem;
+}
+.text_first_img p {
+    margin-top: 2vh;
+    border: white solid 3px;
+    padding: 0 1vw;
+    font-size: 1rem;
+}
+.bloc{
+    position: relative;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+
+.container_img{
+    width: 50%;
+}
+.img_2{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.cadre_1{
+    position: absolute;
+    width: 20%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.cadre_1 img {
+    width: 12vw;
+    margin: auto;
+}
+.text_cadre{
+    position: absolute;
+    top: 45%;
+    color: white;
+}
+
+
+.cadre_2{
+    position: absolute;
+    width: 20%;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.cadre_2 img {
+    width: 12vw;
+    margin: auto;
+}
+.text_cadre{
+    position: absolute;
+    top: 22vh;
+    color: white;
+}
+.text_cadre h2{
+    font-size: 2vw;
+}
+.color_div{
+    background-color: gainsboro;
+    padding: 3vw 0;
+}
+.about{
+    width: 80%;
+    margin: auto;
+   
+}
+.about_txt{
+    width: 80%;
+    margin:auto;
+}
+.about_txt h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+    opacity: 0.5;
+}
+.about_txt div {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.about_txt p{
+    text-align: justify;
+    padding: 3vw 0;
+}
+.sign{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    margin: 3vw auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.featured_posts{
+    width: 250px;
+    padding-bottom: 1rem;
+}
+.featured_posts h4{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.featured_posts div{
+    padding-bottom: 5px;
+}
+.featured_posts p{
+    color: rgb(156, 156, 156);
+}
+
+.instagram_feed{
+    width: 250px;
+}
+.instagram_feed h4{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.instagram_feed div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.instagram_feed img{
+    margin: 0.3vw;
+    width: 25%;
+    padding-bottom: 1rem;
+}
+.latest_tweets{
+    width: 250px;
+}
+.latest_tweets h4{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.latest_tweets div{
+    padding-bottom: 1rem;
+}
+.latest_tweets h5{
+    color: rgb(156, 156, 156);
+}
+.subscribe{
+    width: 250px;
+    padding-bottom: 1vw;
+}
+.subscribe h4{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.txt_subscribe{
+    color: rgb(156, 156, 156);
+    padding-bottom: 1vw;
+}
+.subscribe p span{
+    color: black;
+    opacity: 1;
+}
+.mail{
+    border: solid rgb(156, 156, 156);
+    padding: 0.5vw;
+}
+.mail div{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.mail img{
+    width: 5%;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.copyright p{
+    font-size: 0.5rem;
+    margin-bottom: 2vw;
 }
